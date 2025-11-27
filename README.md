@@ -233,7 +233,3 @@ MIT License - see [LICENSE](LICENSE) for details.
 - [Kit.com API Documentation](https://developers.kit.com/)
 - [Model Context Protocol](https://modelcontextprotocol.io)
 - [MCP Specification](https://spec.modelcontextprotocol.io)
-
-## Author
-
-Built by [Jim Christian](https://jimchristian.net) as part of the Signal Over Noise AI toolkit.
