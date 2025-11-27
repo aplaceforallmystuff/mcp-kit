@@ -1,0 +1,58 @@
+{
+  "name": "mcp-kit",
+  "version": "1.0.0",
+  "description": "MCP server for Kit.com (formerly ConvertKit) email marketing API - manage subscribers, tags, sequences, broadcasts, forms, and more",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-kit": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "kit",
+    "convertkit",
+    "email",
+    "newsletter",
+    "email-marketing",
+    "subscribers",
+    "automation",
+    "claude",
+    "ai",
+    "anthropic"
+  ],
+  "author": "Jim Christian <jim@jimchristian.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aplaceforallmystuff/mcp-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aplaceforallmystuff/mcp-kit/issues"
+  },
+  "homepage": "https://github.com/aplaceforallmystuff/mcp-kit#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
