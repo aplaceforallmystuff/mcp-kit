@@ -1,11 +1,12 @@
 {
-  "name": "mcp-kit",
-  "version": "1.0.0",
+  "name": "kit-mcp-server",
+  "version": "1.0.1",
+  "mcpName": "io.github.aplaceforallmystuff/mcp-kit",
   "description": "MCP server for Kit.com (formerly ConvertKit) email marketing API - manage subscribers, tags, sequences, broadcasts, forms, and more",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "mcp-kit": "dist/index.js"
+    "kit-mcp-server": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
