@@ -1,5 +1,6 @@
 # MCP Kit Server
 
+[![npm version](https://img.shields.io/npm/v/kit-mcp-server.svg)](https://www.npmjs.com/package/kit-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io)
 
@@ -84,19 +85,25 @@ If you run a newsletter or email marketing on Kit.com, this MCP server lets you:
 
 ## Installation
 
-### Option 1: Clone and Build
+### Option 1: Install from npm (recommended)
+
+```bash
+npx kit-mcp-server
+```
+
+Or install globally:
+
+```bash
+npm install -g kit-mcp-server
+```
+
+### Option 2: Clone and Build
 
 ```bash
 git clone https://github.com/aplaceforallmystuff/mcp-kit.git
 cd mcp-kit
 npm install
 npm run build
-```
-
-### Option 2: Install from npm (coming soon)
-
-```bash
-npm install -g mcp-kit
 ```
 
 ## Configuration
