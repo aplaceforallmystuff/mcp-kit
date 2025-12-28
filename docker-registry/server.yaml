@@ -18,7 +18,7 @@ about:
   icon: https://kit.com/favicon.ico
 source:
   project: https://github.com/aplaceforallmystuff/mcp-kit
-  commit: 2f54b095a463d3ee1a5a1944b69eebddf80e7f06
+  commit: 0f1cd137b7d21684eb7c4f95ddaccbca8e13510a
 config:
   description: |
     Configure your Kit.com API credentials. Get your API key from Kit.com Settings > Advanced > API.
