@@ -1,0 +1,34 @@
+name: kit
+image: mcp/kit
+type: server
+meta:
+  category: marketing
+  tags:
+    - kit
+    - convertkit
+    - email
+    - newsletter
+    - email-marketing
+    - subscribers
+    - automation
+    - marketing
+about:
+  title: "Kit.com Email Marketing"
+  description: "MCP server for Kit.com (formerly ConvertKit) email marketing API. Manage subscribers, tags, sequences, broadcasts, forms, custom fields, and webhooks. Full CRUD operations for subscriber management, tag automation, email campaigns, and marketing automation workflows."
+  icon: https://kit.com/favicon.ico
+source:
+  project: https://github.com/aplaceforallmystuff/mcp-kit
+  commit: 2f54b095a463d3ee1a5a1944b69eebddf80e7f06
+config:
+  description: |
+    Configure your Kit.com API credentials. Get your API key from Kit.com Settings > Advanced > API.
+    The API secret is only needed for OAuth flows - the API key alone is sufficient for most operations.
+  secrets:
+    - name: kit.api-key
+      env: KIT_API_KEY
+      description: "Kit.com API key from Settings > Advanced > API"
+      example: "<your-kit-api-key>"
+    - name: kit.api-secret
+      env: KIT_API_SECRET
+      description: "Kit.com API secret (optional, for OAuth flows)"
+      example: "<your-kit-api-secret>"
