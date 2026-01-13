@@ -31,3 +31,6 @@ coverage/
 tmp/
 temp/
 .mcpregistry_*
+
+# Claude Code local files
+.claude/
