@@ -1,8 +1,10 @@
 # MCP Kit Server
 
-<p align="center">
+![Architecture](docs/images/architecture-diagram.png)
+
+<!-- <p align="center">
   <img src="docs/mcp-kit-logo.png" alt="MCP Kit Server" width="400">
-</p>
+</p> -->
 
 [![npm version](https://img.shields.io/npm/v/kit-mcp-server.svg)](https://www.npmjs.com/package/kit-mcp-server)
 [![CI](https://github.com/aplaceforallmystuff/mcp-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/aplaceforallmystuff/mcp-kit/actions/workflows/ci.yml)
