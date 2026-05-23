@@ -99,3 +99,7 @@ npm start
 ```
 
 The server communicates via stdio using JSON-RPC protocol.
+
+## Pre-Publish
+
+Run `/publish-mcp` before any `npm publish` — mandatory pipeline that handles tests, secret scan, sanitize, docs check, version bump, tag, push, and publish in strict order. Do not run `npm publish` directly.
